@@ -1,0 +1,49 @@
+Wav2Vec2 Model: facebook/wav2vec2-base-960h
+
+Note:
+- Some parameters were missing and newly initialized.
+- Consider fine-tuning on downstream tasks.
+
+
+--------------------------------------------------
+File: 8629-261139-0009.flac
+Transcription:
+AND TO HIM A FULL ATTENTION WAS BEING GIVEN IN THE HOPE THAT SOME REAL ENLIGHTENMENT WOULD COME AT LAST TO SETTLE THE QUESTIONS WHICH HAD BEEN RAISED BY AMABEL'S INCOMPLETE AND UNSATISFACTORY TESTIMONY BUT NO MAN CAN FURNISH WHAT HE DOES NOT POSSESS
+Phonetic Boundaries: 250
+Alignment RMSE: 0.0286 seconds
+
+
+--------------------------------------------------
+File: 8629-261140-0017.flac
+Transcription:
+BUT WHEN I ROSE TO LOOK FOR BATSY I FOUND THAT THE SHOCK OF HER MISTRESS'S FATAL ACT HAD KILLED HER
+Phonetic Boundaries: 100
+Alignment RMSE: 0.0264 seconds
+
+
+--------------------------------------------------
+File: 5778-54535-0022.flac
+Transcription:
+THE EMPEROR WAS FOND OF THE TWO BOYS AND WANTED THEM TO STAY ON IN RUSSIA AND BE TRAINED IN THE SCHOOL FOR PAGES OF THE COURT BUT THEIR MOTHER SAID THEY MUST GROW UP IN AMERICA AND HURRIED BACK TO HER OWN LAND
+Phonetic Boundaries: 210
+Alignment RMSE: 0.0283 seconds
+
+
+--------------------------------------------------
+File: 5778-12761-0024.flac
+Transcription:
+I STARTED AHEAD THIS MORNING WITH A PARTY OF EIGHT CONSISTING WITH MYSELF
+Phonetic Boundaries: 74
+Alignment RMSE: 0.0300 seconds
+
+
+--------------------------------------------------
+File: 5322-7680-0019.flac
+Transcription:
+THE OUTLINES OF THE HUTS WERE CLEARLY TO BE SEEN LIGHTS GLEAMED AND THE AIR WAS FILLED WITH THE PECULIAR SMELL OF KISYAK SMOKE OLENIN FELT KEENLY THAT NIGHT ESPECIALLY THAT HERE IN THIS VILLAGE WAS HIS HOME HIS FAMILY
+Phonetic Boundaries: 218
+Alignment RMSE: 0.0268 seconds
+
+
+--------------------------------------------------
+Status: SUCCESS

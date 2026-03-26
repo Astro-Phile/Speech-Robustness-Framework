@@ -1,0 +1,13 @@
+=== FINAL ARCHITECTURE COMPARISON ===
+
+Baseline CNN:
+  Clean: 77.50%
+  Noisy: 77.14%
+
+Paper Disentangled:
+  Clean: 87.50%
+  Noisy: 80.00%
+
+Improved Attention:
+  Clean: 100.00%
+  Noisy: 97.14%

@@ -1,0 +1,1 @@
+"Due to the compute constraints of running full Frechet Audio Distance (FAD) embeddings locally, pp_demo.py calculates Log-Spectral Distance (LSD) as a lightweight mathematical proxy. It successfully evaluates the audio pairs for severe acoustic distortions (Toxicity Traps) while remaining computationally efficient."

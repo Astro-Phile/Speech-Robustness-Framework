@@ -1,0 +1,7 @@
+Baseline Performance:
+Clean Environment Accuracy: 72.00%
+Noisy Environment Accuracy: 80.00%
+
+Disentangled Model Performance:
+Clean Environment Accuracy: 88.00%
+Noisy Environment Accuracy: 80.00%

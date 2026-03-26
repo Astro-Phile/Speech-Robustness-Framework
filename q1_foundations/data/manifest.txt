@@ -1,0 +1,7 @@
+Audio files used for Question 1 Analysis:
+=========================================
+LibriSpeech_Dataset/LibriSpeech/train-clean-100/8629/261139/8629-261139-0009.flac
+LibriSpeech_Dataset/LibriSpeech/train-clean-100/8629/261140/8629-261140-0017.flac
+LibriSpeech_Dataset/LibriSpeech/train-clean-100/5778/54535/5778-54535-0022.flac
+LibriSpeech_Dataset/LibriSpeech/train-clean-100/5778/12761/5778-12761-0024.flac
+LibriSpeech_Dataset/LibriSpeech/train-clean-100/5322/7680/5322-7680-0019.flac
