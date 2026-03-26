@@ -181,20 +181,47 @@ pip install -r requirements.txt
 ## ▶️ Run Everything
 
 ```bash
-# Feature Extraction
-python src/mfcc_manual.py
+# -------------------------------
+# Setup
+# -------------------------------
+pip install -r requirement.txt
 
-# Spectral Analysis
-python src/leakage_snr.py
+# -------------------------------
+# 0. Download Data (if needed)
+# -------------------------------
+python data/dataDownloader.py
 
-# Segmentation
-python src/voiced_unvoiced.py
 
-# Alignment
-python src/phonetic_mapping.py
+# -------------------------------
+# 1. Q1: Foundations (DSP Pipeline)
+# -------------------------------
+python q1_foundations/mfcc_manual.py
+python q1_foundations/leakage_snr.py
+python q1_foundations/voiced_unvoiced.py
+python q1_foundations/phonetic_mapping.py
 
-# Training
-python src/train.py
+
+# -------------------------------
+# 2. Q2: Disentangled Learning
+# -------------------------------
+python q2_disentanglement/train.py
+python q2_disentanglement/eval.py
+
+# Advanced / Improved Model
+python "q2_disentanglement/attention_disentangled_train.py"
+
+# Full comparison script
+python "q2_disentanglement/evaluate_all_models.py"
+
+
+# -------------------------------
+# 3. Q3: Ethical AI
+# -------------------------------
+python q3_ethical_ai/audit.py
+python q3_ethical_ai/train_fair.py
+
+# Privacy demo
+python q3_ethical_ai/pp_demo.py
 ```
 
 ---
@@ -226,12 +253,46 @@ python src/train.py
 ```
 Speech-Robustness-Framework/
 │
-├── src/
-├── q2/
-├── q3/
+├── Review and Reports/        # Final reports (Q1, Q2, Q3 PDFs)
+│
 ├── data/
-├── requirements.txt
-└── README.md
+│   └── dataDownloader.py      # Script to fetch datasets
+│
+├── notebook/                  # Experimental notebooks
+│
+├── q1_foundations/            # DSP + Feature Engineering
+│   ├── data/
+│   ├── results/
+│   ├── mfcc_manual.py
+│   ├── leakage_snr.py
+│   ├── voiced_unvoiced.py
+│   ├── phonetic_mapping.py
+│
+├── q2_disentanglement/        # Robust Speaker Recognition
+│   ├── configs/
+│   ├── results/
+│   ├── train.py
+│   ├── eval.py
+│   ├── Evaluting All Model.py
+│   ├── Attention disentangled train.py
+│   ├── q2_readme.md
+│
+├── q3_ethical_ai/             # Fairness + Privacy
+│   ├── configs/
+│   ├── evaluation_scripts/
+│   ├── examples/
+│   ├── results/
+│   ├── audit.py
+│   ├── privacymodule.py
+│   ├── train_fair.py
+│   ├── pp_demo.py
+│
+├── results/                   # Global outputs/plots
+│
+├── requirement.txt
+├── README.md
+├── LICENSE
+└── Problem Statement.docx
 ```
 
 ---
