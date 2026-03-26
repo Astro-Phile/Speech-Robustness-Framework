@@ -1,0 +1,13 @@
+# --- Core Deep Learning & Audio ---
+torch>=2.0.0          # Core tensor operations and GRL implementation
+torchaudio>=2.0.0     # Audio loading, resampling, and pitch-shifting
+transformers>=4.30.0  # Hugging Face Wav2Vec2 for phonetic alignment
+
+# --- Signal Processing & Math ---
+numpy>=1.23.0         # Numerical operations for manual MFCCs and LSD
+librosa>=0.10.0       # Audio loading and spectral analysis
+scipy>=1.10.0         # Discrete Cosine Transform (DCT) for MFCCs
+
+# --- Data Analysis & Visualization ---
+pandas>=2.0.0         # Demographic data handling for ethical auditing
+matplotlib>=3.7.0     # Generation of accuracy bars and fairness curves
